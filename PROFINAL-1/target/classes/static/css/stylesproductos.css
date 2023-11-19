@@ -1,0 +1,151 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f3f3f3;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 80%; /* Modificado para un diseño responsivo */
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px; /* Tamaño del texto reducido */
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 80%; /* Modificado para un diseño responsivo */
+    margin: 0 auto;
+    padding: 30px; /* Espaciado reducido */
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 10px; /* Espaciado reducido */
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color: #c78c19;
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos h2{
+    font-size: 24px; /* Tamaño del texto reducido */
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 27px; /* Tamaño del texto reducido */
+}
+
+.producto-descripcion{
+    font-size: 16px; /* Tamaño del texto reducido */
+}
+
+.producto-precio{
+    font-size: 18px; /* Tamaño del texto reducido */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 20px;
+    background-color: #e7e5e5;
+}
+
+
+.logo {
+
+    width: 250px;
+    margin-bottom: 10px;
+
+}
+
+
+
+#google_translate_element {
+    display: inline-block;
+    margin: 0;
+}
+
+.goog-te-combo {
+    margin: 0 !important;
+    border: 1px solid #3498db; /* Cambiado a un tono suave de azul */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.goog-te-menu-value {
+    padding: 5px;
+    background-color: #3498db !important; /* Cambiado a un tono suave de azul */
+    color: #ffffff !important;
+}
+
+.goog-te-gadget-simple {
+    background-color: #3498db  !important; /* Cambiado a un tono suave de azul */
+    border: 1px solid #3498db !important;
+    border-radius: 5px;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 5px 10px !important;
+    cursor: pointer;
+    color: #ffffff !important;
+    transition: background-color 0.3s ease;
+}
+
+.goog-te-gadget-simple:hover {
+    background-color: #ffffff !important;
+    color: #3498db !important;
+    transition: background-color 0.3s ease;
+}
+
+.goog-te-gadget-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png?20160129085523') !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px !important;
+    height: 20px !important;
+}
+

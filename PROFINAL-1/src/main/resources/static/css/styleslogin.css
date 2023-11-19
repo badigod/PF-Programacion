@@ -1,0 +1,138 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f3f3f3;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.login-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.login-form,
+.register-form {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.login-input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-button {
+    background-color: #c78c19;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #a67315;
+}
+
+footer {
+    text-align: center;
+    background: url(IMAGENES/bg.jpg);
+    padding: 10px;
+    background-color: #e7e5e5;
+}
+
+
+#google_translate_element {
+    display: inline-block;
+    margin: 0;
+}
+
+.goog-te-combo {
+    margin: 0 !important;
+    border: 1px solid #3498db; /* Cambiado a un tono suave de azul */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.goog-te-menu-value {
+    padding: 5px;
+    background-color: #3498db !important; /* Cambiado a un tono suave de azul */
+    color: #ffffff !important;
+}
+
+.goog-te-gadget-simple {
+    background-color: #3498db  !important; /* Cambiado a un tono suave de azul */
+    border: 1px solid #3498db !important;
+    border-radius: 5px;
+    font-size: 12px !important;
+    display: inline-block !important;
+    padding: 5px 10px !important;
+    cursor: pointer;
+    color: #ffffff !important;
+    transition: background-color 0.3s ease;
+}
+
+.goog-te-gadget-simple:hover {
+    background-color: #ffffff !important;
+    color: #3498db !important;
+    transition: background-color 0.3s ease;
+}
+
+.goog-te-gadget-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png?20160129085523') !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px !important;
+    height: 20px !important;
+}
+
